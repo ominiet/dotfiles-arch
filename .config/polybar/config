@@ -37,12 +37,14 @@ alert = ${xrdb.color6}
 
 [bar/main]
 monitor = ${env:MONITOR:DP-4}
-width = 100%
+width = 99%
 height = 2%
-;offset-x = 1%
-;offset-y = 1%
-radius = 0.0
+offset-x = 0.5%
+offset-y = 0.5%
+radius = 15.0
 fixed-center = true
+override-redirect = true
+wm-restack = i3
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -77,12 +79,14 @@ cursor-scroll = ns-resize
 
 [bar/alt-left]
 monitor = ${env:MONITOR:DP-0}
-width = 100%
+width = 99%
 height = 2%
-;offset-x = 1%
-;offset-y = 1%
-radius = 0.0
+offset-x = 0.5%
+offset-y = 0.5%
+radius = 12.0
 fixed-center = true
+override-redirect = true
+wm-restack = i3
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -112,13 +116,14 @@ cursor-scroll = ns-resize
 
 [bar/alt-right]
 monitor = ${env:MONITOR:DP-2}
-width = 100%
+width = 98%
 height = 1.5%
-;offset-x = 1%
-;offset-y = 1%
-radius = 0.0
+offset-x = 1.0%
+offset-y = 0.5%
+radius = 15.0
 fixed-center = true
-
+override-redirect = true
+wm-restack = i3
 background = ${colors.background}
 foreground = ${colors.foreground}
 
@@ -216,7 +221,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlp39s0f3u3
+interface = wlp45s0f3u4
 interval = 3.0
 
 format-connected =  <ramp-signal><label-connected>

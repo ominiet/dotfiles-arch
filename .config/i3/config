@@ -164,7 +164,7 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id $HOME/.config/polybar/startpoly.sh
 
 #Gets rid of window borders (makes it hard to tell which window is active)
-for_window [class="^.*"] border pixel 3
+for_window [class="^.*"] border pixel 0
 
 set_from_resource $base01 i3wm.color1 #ff6666
 set_from_resource $base02 i3wm.color2 #8ce10b
@@ -190,7 +190,7 @@ bindsym XF86AudioMute exec "amixer set Speaker toggle"
 #
 exec_always --no-startup-id feh --no-fehbg --bg-fill ~/.backgrounds/spiderman4.jpg &
 exec_always --no-startup-id wal -R &
-exec_always --no-startup-id picom -cb &
+exec_always --no-startup-id picom --experimental-backends -cb &
 
 
 # Start workspace specific applications

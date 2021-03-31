@@ -1,6 +1,8 @@
 URxvt.font: 			xft:MesloLGS NF:size=12
 URxvt.letterSpace:		0
 URxvt.scrollBar: 		false
+URxvt.internalBorder:		10
+
 
 URxvt*background:		#151718
 URxvt*foreground:		#d6d6d6
