@@ -1,5 +1,5 @@
 #  https://i3wm.org/docs/userguide.html 
-font pango:Monaco-Linux 14
+font pango:Monaco-Linux 18
 
 #set up gaps
 gaps inner 40
@@ -11,7 +11,7 @@ set $left h
 set $right l
 
 set $mod Mod4
-
+# border_radius 2
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -182,9 +182,9 @@ client.unfocused	$base0F	$base0F	$base07	$base0F
 client.urgent		$base07	$base02	$base07	$base02
 
 # Set Volume keys
-bindsym XF86AudioRaiseVolume exec "amixer set Speaker 5%+"
-bindsym XF86AudioLowerVolume exec "amixer set Speaker 5%-"
-bindsym XF86AudioMute exec "amixer set Speaker toggle"
+bindsym XF86AudioRaiseVolume exec "pactl set-sink-volume @DEFAULT_SINK@ +5%"
+bindsym XF86AudioLowerVolume exec "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+bindsym XF86AudioMute exec "pactl set-sink-mute @DEFAULT_SINK@ toggle"
 
 # Start applications used to initialize session for i3
 #

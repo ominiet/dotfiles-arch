@@ -2,7 +2,7 @@
 # /home/oscar/.nvidia-settings-rc
 #
 # Configuration file for nvidia-settings - the NVIDIA X Server Settings utility
-# Generated on Tue Sep 22 15:21:57 2020
+# Generated on Sun Jul  4 21:08:57 2021
 #
 
 # ConfigProperties:
@@ -31,9 +31,10 @@ Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
 0/FSAAAppEnhanced=0
 0/AllowGSYNC=1
 0/AllowVRR=1
-0/ShowGSYNCVisualIndicator=0
-0/ShowVRRVisualIndicator=0
+0/ShowGSYNCVisualIndicator=1
+0/ShowVRRVisualIndicator=1
 0/ShowGraphicsVisualIndicator=0
+0/XVideoSyncToDisplayID=DP-4
 [DPY:DVI-D-0]/Dithering=0
 [DPY:DVI-D-0]/DitheringMode=0
 [DPY:DVI-D-0]/DitheringDepth=0

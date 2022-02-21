@@ -1,36 +1,78 @@
-URxvt.font: 			xft:MesloLGS NF:size=12
+URxvt.font: 			xft:MesloLGS NF:size=13
 URxvt.letterSpace:		0
 URxvt.scrollBar: 		false
 URxvt.internalBorder:		10
 
 
-URxvt*background:		#151718
-URxvt*foreground:		#d6d6d6
-URxvt*cursorColor:		#d6d6d6
+! URxvt*background:		#151718
+! URxvt*foreground:		#d6d6d6
+! URxvt*cursorColor:		#d6d6d6
 URxvt*highlightColor:		#252936
 URxvt*highlightTextColor:	#C0C5CE
 
-URxvt*color0:			#101218
-URxvt*color1:			#ee829f
-URxvt*color2:			#a5ffe1
-URxvt*color3:			#ffefcc
-URxvt*color4:			#97bbf7
-URxvt*color5:			#c0b7f9
-URxvt*color6:			#97e0ff
-URxvt*color7:			#d1d4e0
-URxvt*color8:			#7780a1
-URxvt*color9:			#ee829f
-URxvt*color10:			#a5ffe1
-URxvt*color11:			#ffefcc
-URxvt*color12:			#97bbf7
-URxvt*color13:			#c0b7f9
-URxvt*color14:			#97e0ff
-URxvt*color15:			#ffffff
-URxvt*color16:			#f99170
-URxvt*color17:			#fcc09e
-URxvt*color18:			#1f222d
-URxvt*color19:			#252936
-URxvt*color20:			#c0c5ce
-URxvt*color21:			#c9ccdb
+*.foreground:       #ede6ca
+*.background:       #110d0c
+
+URxvt*cursorColor:  #ede6ca
+URxvt*borderColor:  [100]#110d0c
+
+! Colors 0-15.
+*.color0: #110d0c
+*color0:  #110d0c
+*.color1: #D5AC61
+*color1:  #D5AC61
+*.color2: #355990
+*color2:  #355990
+*.color3: #6E8A8F
+*color3:  #6E8A8F
+*.color4: #4FA1DA
+*color4:  #4FA1DA
+*.color5: #A0A59B
+*color5:  #A0A59B
+*.color6: #C8BAA3
+*color6:  #C8BAA3
+*.color7: #ede6ca
+*color7:  #ede6ca
+*.color8: #a5a18d
+*color8:  #a5a18d
+*.color9: #D5AC61
+*color9:  #D5AC61
+*.color10: #355990
+*color10:  #355990
+*.color11: #6E8A8F
+*color11:  #6E8A8F
+*.color12: #4FA1DA
+*color12:  #4FA1DA
+*.color13: #A0A59B
+*color13:  #A0A59B
+*.color14: #C8BAA3
+*color14:  #C8BAA3
+*.color15: #ede6ca
+*color15:  #ede6ca
+
+
+
+! URxvt*color0:			#101218
+! URxvt*color1:			#ee829f
+! URxvt*color2:			#a5ffe1
+! URxvt*color3:			#ffefcc
+! URxvt*color4:			#97bbf7
+! URxvt*color5:			#c0b7f9
+! URxvt*color6:			#97e0ff
+! URxvt*color7:			#d1d4e0
+! URxvt*color8:			#7780a1
+! URxvt*color9:			#ee829f
+! URxvt*color10:			#a5ffe1
+! URxvt*color11:			#ffefcc
+! URxvt*color12:			#97bbf7
+! URxvt*color13:			#c0b7f9
+! URxvt*color14:			#97e0ff
+! URxvt*color15:			#ffffff
+! URxvt*color16:			#f99170
+! URxvt*color17:			#fcc09e
+! URxvt*color18:			#1f222d
+! URxvt*color19:			#252936
+! URxvt*color20:			#c0c5ce
+! URxvt*color21:			#c9ccdb
 
 URxvt.perl-ext-common:		resize-font
